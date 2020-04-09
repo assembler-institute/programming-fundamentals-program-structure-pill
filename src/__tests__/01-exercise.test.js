@@ -1,24 +1,14 @@
-const variableNaming = require('../01-exercise');
+const exercise01 = require('../01-exercise');
 
 describe('01-exercise', () => {
-    test('creates a variable  with an uppercase first letter', () => {
+    test('create variable names with upper and lower case first letter', () => {
         expect(() => {
-            variableNaming();
+            exercise01();
         }).not.toThrow();
-        expect(variableNaming().Myvar).toEqual(expect.any(String));
-    });
 
-    test('creates a variable with a lowercase first letter', () => {
-        expect(() => {
-            variableNaming();
-        }).not.toThrow();
-        expect(variableNaming().myvar).toEqual(expect.any(String));
-    });
-
-    test('variables have different values', () => {
-        expect(() => {
-            variableNaming();
-        }).not.toThrow();
-        expect(variableNaming().Myvar).not.toBe(variableNaming().myvar);
+        expect(exercise01()).toMatchObject([
+            'First_variable',
+            'first_variable',
+        ]);
     });
 });
