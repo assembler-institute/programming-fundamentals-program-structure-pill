@@ -1,6 +1,7 @@
 /**
- * Create a program that uses the for loop to output the numbers
- * from 0 up to 10 (not including 10) and output the numbers with console.log
+ * Create a for loop to console.log the numbers
+ * from 0 to 9 (both 0 and 9 inclusive)
+ * 0 -> 9
  */
 function exercise09() {
     // Write your solution bellow this line

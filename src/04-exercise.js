@@ -1,6 +1,8 @@
 /**
- * Correct the variable name so that it doesn’t use a reserved name
- * variable naming rules in JavaScript.
+ * Correct the variable name so that it doesn’t use
+ * a JavaScript reserved name.
+ *
+ * You can choose any valid name for the variable.
  */
 function exercise04() {
     // Correct the variable name

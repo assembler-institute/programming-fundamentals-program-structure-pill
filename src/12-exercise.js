@@ -3,13 +3,16 @@
  * changes the value of the current item in the array:
  *
  * if the number is smaller than 10:
- * value = 'was smaller'
+ * array item value = 'was smaller'
  *
  * if the number is equal to 10:
- * value = 'was equal'
+ * array item value = 'was equal'
  *
  * if the number is larger than 10:
- * value = 'was larger'
+ * array item value = 'was larger'
+ *
+ * @example
+ * [1, 15, 10] => ["was smaller", "was larger", "was equal"]
  */
 function exercise12() {
     let numbers = [1, 22, 4, 10, 15, 10, 5, 8, 12];

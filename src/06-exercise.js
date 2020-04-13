@@ -2,11 +2,12 @@
  * Fix the use of the global variable 'globalVariable' so that
  * it is not available globally anymore.
  *
- * Your solution should preserve the value 'hello-world'.
+ * Your solution should preserve the value: 'hello-world' of the variable.
  */
 
 var globalVariable = 'hello-world';
 
+// Write you solution bellow this line
 function exercise06Solution() {
     return globalVariable;
 }

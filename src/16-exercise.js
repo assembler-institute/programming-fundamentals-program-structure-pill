@@ -6,6 +6,7 @@
  * "Today is " + day element in the array
  *
  * => Today is Monday
+ * => Today is Tuesday
  * ...
  */
 function exercise16() {

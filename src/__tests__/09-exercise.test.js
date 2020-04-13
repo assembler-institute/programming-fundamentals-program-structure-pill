@@ -5,7 +5,7 @@ describe('09-exercise', () => {
 
     afterAll(() => logSpy.mockRestore());
 
-    test('create a for loop to console.log the numbers from 0 up to 10', () => {
+    test('create a for loop to console.log the numbers from 0 to 9', () => {
         exercise09();
 
         expect(logSpy).toHaveBeenCalledTimes(10);

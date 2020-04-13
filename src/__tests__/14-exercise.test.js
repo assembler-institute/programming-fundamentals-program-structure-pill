@@ -5,7 +5,7 @@ describe('14-exercise', () => {
 
     afterAll(() => logSpy.mockRestore());
 
-    test('console.log the characters in the str variable with for of', () => {
+    test('console.log each of the characters in the str variable with for of', () => {
         exercise14();
 
         expect(logSpy).toHaveBeenCalledWith('h');

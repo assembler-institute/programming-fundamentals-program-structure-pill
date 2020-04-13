@@ -4,6 +4,7 @@
 function exercise08(dayNum) {
     let dayName;
 
+    // Write your solution bellow this line
     switch (dayNum) {
         case 1: {
             dayName = 'Monday';
@@ -31,6 +32,7 @@ function exercise08(dayNum) {
         }
     }
 
+    // Don’t change the code bellow this line
     return dayName;
 }
 
