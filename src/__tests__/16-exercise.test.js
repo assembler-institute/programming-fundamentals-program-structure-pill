@@ -5,7 +5,7 @@ describe('16-exercise', () => {
 
     afterAll(() => logSpy.mockRestore());
 
-    test('console.log the characters in the str variable with for in', () => {
+    test('console.log the string "Today is " and each day in the "days" array ', () => {
         exercise16();
 
         expect(logSpy).toHaveBeenCalledWith('Today is Monday');
