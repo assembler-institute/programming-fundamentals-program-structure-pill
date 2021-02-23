@@ -1,17 +1,28 @@
 /**
- * Create a program that uses the do while loop
- * to iterate over the numbers from 0 to 20
+ * Store in the variable 'result' the value 'pear' from the array 'fruits'.
  *
- * and to console.log the numbers:
+ * IMPORTANT:
+ * You will have to store the value by accesing
+ * the exact position in the array,
  *
- * from 0 to 4 (including 0 and 4)
- *
- * from 16 to 20 (including 16 and 20)
- *
- * output => 0, 1, 2, 3, 4, 16, 17, 18, 19, 20
+ * not by copying the value.
  */
-function exercise13() {
-    // Write your solution here
+function getValueInArray() {
+  let fruits = [
+    "orange",
+    "pineapple",
+    "olives",
+    "pear",
+    "prunes",
+    "peaches",
+    "apple"
+  ];
+  let result;
+
+  // Add your code here
+
+  // Don’t change this code
+  return result;
 }
 
-module.exports = exercise13;
+export default getValueInArray;

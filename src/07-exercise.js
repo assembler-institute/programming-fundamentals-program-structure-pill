@@ -1,23 +1,19 @@
 /**
- * Create a switch statement that stores
- * in the variable result the values:
+ * Save in the variable 'sum'
+ * the result of:
+ * adding the variable 'a' to the variable 'b'
  *
- * for the case 1: "one"
- * for the case 2: "two"
- * for the case 3: "three"
- * for default case: "no number"
- *
- * It should only store 1 value.
+ * a + b
  */
-function exercise07(number) {
-    let result;
+function add() {
+  let a = 20;
+  let b = 10;
+  let sum;
 
-    // Write your solution bellow this line
-    switch (number) {
-    }
-
-    // Don’t change the code bellow this line
-    return result;
+  // Add your code here
+  sum=a+b;
+  // Don’t change this code
+  return sum;
 }
 
-module.exports = exercise07;
+export default add;

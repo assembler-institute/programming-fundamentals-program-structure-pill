@@ -1,14 +1,25 @@
 /**
- * Write a program using the for in loop to console.log
- * all the individual characters in the 'str' variable
+ * Change the value in the position 3 of the 'fruits' array to be 'kiwi'
  *
- * let str = "hello-world";
- * => h, e, l, l, o, -, w, o, r, l, d
+ * NOTE:
+ * You will have to change the value in the 3 position in the array
+ * by accessing it’s exact position.
  */
-function exercise15() {
-    let str = 'hello-world';
+function changeValueInArray() {
+  let fruits = [
+    "olives",
+    "orange",
+    "apple",
+    "pear",
+    "peaches",
+    "pineapple",
+    "prunes"
+  ];
 
-    // Write your solution here
+  // Add your code here
+
+  // Don’t change this code
+  return fruits;
 }
 
-module.exports = exercise15;
+export default changeValueInArray;

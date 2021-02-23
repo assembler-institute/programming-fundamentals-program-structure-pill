@@ -1,17 +1,20 @@
 /**
- * Create a while loop that concatenates
- * the character "#" the variable "str"
- * so that "str" has 7 "#" characters.
+ * Save in the variable total the result of:
  *
- * str should have the final value: "#######"
+ * 1. Obtain the remainder of 5 modulus of 'a'
+ * 'a' % 5 (use the modulus operator)
+ *
+ * 2. then add 10 to the previous result
+ * 3. then multiply it by 2
  */
-function exercise11() {
-    let str = '';
+function getTotal() {
+  let a = 21;
+  let total;
 
-    // Write your solution bellow this line
+  // Add your code here
 
-    // Don’t change the code bellow this line
-    return str;
+  // Don’t change this code
+  return total;
 }
 
-module.exports = exercise11;
+export default getTotal;

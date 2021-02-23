@@ -1,39 +1,17 @@
 /**
- * Fix the following switch statement to execute only one case
+ * Save in the variable 'minus' the result of
+ * subtracting the variable 'a' from the variable 'b':
+ * a - b
  */
-function exercise08(dayNum) {
-    let dayName;
+function subtract() {
+  let a = 20;
+  let b = 10;
+  let minus;
 
-    // Write your solution bellow this line
-    switch (dayNum) {
-        case 1: {
-            dayName = 'Monday';
-        }
-        case 2: {
-            dayName = 'Tuesday';
-        }
-        case 3: {
-            dayName = 'Wednesday';
-        }
-        case 4: {
-            dayName = 'Thursday';
-        }
-        case 5: {
-            dayName = 'Friday';
-        }
-        case 6: {
-            dayName = 'Saturday';
-        }
-        case 7: {
-            dayName = 'Sunday';
-        }
-        default: {
-            dayName = 'Day Not Found';
-        }
-    }
-
-    // Don’t change the code bellow this line
-    return dayName;
+  // Add your code here
+  minus=a-b;
+  // Don’t change this code
+  return minus;
 }
 
-module.exports = exercise08;
+export default subtract;

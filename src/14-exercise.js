@@ -1,14 +1,19 @@
 /**
- * Write a program using the for of loop to console.log
- * all the individual characters in the 'str' variable
+ * Store in the variable result the length of the array numbers.
  *
- * let str = "hello-world";
- * => h, e, l, l, o, -, w, o, r, l, d
+ * NOTE:
+ * You will have to learn how to read/access
+ * the length property of an array to solve this exercise.
  */
-function exercise14() {
-    let str = 'hello-world';
+function getArrLength() {
+  // Add your code here
+  let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+  let result;
 
-    // Write your solution here
+  // Add your code here
+
+  // Don’t change this code
+  return result;
 }
 
-module.exports = exercise14;
+export default getArrLength;
