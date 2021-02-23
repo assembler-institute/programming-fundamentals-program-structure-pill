@@ -1,25 +1,12 @@
 /**
- * Create a variable
- * named: undefinedVar
+ * Correct the variable name so that it doesn’t use
+ * a JavaScript reserved name.
  *
- * with the value of:
- * undefined
- *
- * Create a variable
- * named: nullVar
- *
- * with the value of:
- * null
+ * You can choose any valid name for the variable.
  */
-function makeNullUndefinedVariables() {
-  // Write your code here
-  var undefinedVar;
-  var nullVar=null;
-  // Don’t change this code
-  return {
-    undefinedVar: undefinedVar,
-    nullVar: nullVar
-  };
+function exercise04() {
+    // Correct the variable name
+    var deleteFixed = 'fix my name';
 }
 
-export default makeNullUndefinedVariables;
+module.exports = exercise04;

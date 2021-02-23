@@ -1,24 +1,27 @@
 /**
- * Store in the variable result the person named 'James'
+ * Write a program using the forEach loop to console.log
+ * all the days in the 'days' array
+ * and concatenate the string:
  *
- * NOTE:
- * You will have to copy the value from the 'tenants' array
- * into the variable 'result' by accessing it’s exact position.
+ * "Today is " + day element in the array
  *
- * @example
- * result = data[2][2]
+ * => Today is Monday
+ * => Today is Tuesday
+ * ...
  */
-function twoDimensionalArray() {
-  let tenants = [
-    ["Ana", "Alex", "Andrian", "Max", "Miguel"],
-    ["James", "John", "Robert", "William", "David"]
-  ];
-  let result;
+function exercise16() {
+    let days = [
+        'Monday',
+        'Tuesday',
+        'Wednesday',
+        'Thursday',
+        'Friday',
+        'Saturday',
+        'Sunday',
+    ];
 
-  // Add your code here
-
-  // Don’t change this code
-  return result;
+    // Write your solution here
+    days.forEach(day => console.log("Today is " + day));
 }
 
-export default twoDimensionalArray;
+module.exports = exercise16;

@@ -1,17 +1,13 @@
 /**
- * Save in the variable 'division' the result of
- * dividing the variable 'a' by the variable 'b':
- * a / b
+ * Create a for loop to console.log the numbers
+ * from 0 to 9 (both 0 and 9 inclusive)
+ * 0 -> 9
  */
-function divide() {
-  let a = 20;
-  let b = 10;
-  let division;
-
-  // Add your code here
-
-  // Don’t change this code
-  return division;
+function exercise09() {
+    // Write your solution bellow this line
+    for(var num = 0;num < 10;num++){
+        console.log(num);
+    }
 }
 
-export default divide;
+module.exports = exercise09;

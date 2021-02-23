@@ -1,17 +1,18 @@
 /**
- * Save in the variable 'multiplication' the result of
- * multiplying the variable 'a' by the variable 'b' :
- * a * b
+ * Create a while loop that multiplies by 2
+ * every element in the "numbers" array.
  */
-function multiply() {
-  let a = 20;
-  let b = 10;
-  let multiplication;
+function exercise10() {
+    let numbers = [1, 2, 4, 5, 6, 7, 8, 9];
 
-  // Add your code here
-
-  // Don’t change this code
-  return multiplication;
+    // Write your solution bellow this line
+    let i = 0;
+    while(i < numbers.length){
+        numbers[i] = numbers[i] * 2;
+        i++;
+    }
+    // Don’t change the code bellow this line
+    return numbers;
 }
 
-export default multiply;
+module.exports = exercise10;

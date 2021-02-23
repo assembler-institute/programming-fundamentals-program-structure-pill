@@ -1,14 +1,30 @@
 /**
- * Create an array of strings with the following days of the week.
+ * Create a loop using the for in loop that
+ * changes the value of the current item in the array:
  *
- * Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+ * if the number is smaller than 10:
+ * array item value = 'was smaller'
+ *
+ * if the number is equal to 10:
+ * array item value = 'was equal'
+ *
+ * if the number is larger than 10:
+ * array item value = 'was larger'
+ *
+ * @example
+ * [1, 15, 10] => ["was smaller", "was larger", "was equal"]
  */
-function weekDays() {
-  // Add your code here
-  let days = [];
+function exercise12() {
+    let numbers = [1, 22, 4, 10, 15, 10, 5, 8, 12];
 
-  // Don’t change this code
-  return days;
+    // Write your solution bellow this line
+    for (let i in numbers){
+        if(numbers[i] < 10)numbers[i] = 'was smaller';
+        else if(numbers[i] == 10)numbers[i] = 'was equal';
+        else numbers[i] = 'was larger';
+    }
+    // Don’t change the code bellow this line
+    return numbers;
 }
 
-export default weekDays;
+module.exports = exercise12;

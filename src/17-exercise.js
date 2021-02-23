@@ -1,33 +1,41 @@
 /**
- * Store in the variable result the full name of the person named 'Adrian Mateo'
- * and use string concatenation with the + operator to create the full name
- * with an empty space between the first name and the last name
+ * BONUS EXERCISE
  *
- * result = 'Adrian Mateo'
+ * Create a for loop that compares the current item
+ * in the array with the next item in the array and that:
  *
- * NOTE:
- * You will have to copy the value from the 'fullnames' array
- * into the variable 'result' by accessing the exact position
- * of the first and last name.
+ * saves the current item in the next item
+ * and the next item in the current item
  *
- * @example
- * result = data[2] + " " + data[3]
+ * if the current item is larger than the next item.
+ *
+ * Initial Array = [5, 4, 3, 2, 1]
+ *
+ * Step 1 in the loop = [|4, 5|, 3, 2, 1] changes |5 with 4|
+ * Step 2 in the loop = [4, |3, 5|, 2, 1] changes |5 with 3|
+ * Step 3 in the loop = [4, 3, |2, 5|, 1] changes |5 with 2|
+ * Step 4 in the loop = [4, 3, 2, |1, 5|] changes |5 with 1|
+ *
+ * Final Array = [4, 3, 2, 1, 5]
+ *
+ * Note:
+ * You will have to compare the current array index
+ * with the next array index (i + 1).
  */
-function threeDimensionalArray() {
-  // prettier-ignore
-  let fullnames = [
-    [
-      ["Ana", "Perez"],
-      ["Alex", "Marín"],
-      ["Adrian", "Mateo"]
-    ]
-  ];
-  let result;
+function exercise17() {
+    let nums = [5, 4, 3, 2, 1];
+    
+    for(var i = 0;i < nums.length;i++)
+    {
+        if(nums[i] > nums[i+1])
+        {
+            let vi=nums[i];
+            nums[i]=nums[i+1];
+            nums[i+1]=vi;
+        }
+    }
 
-  // Add your code here
-
-  // Don’t change this code
-  return result;
+    return nums;
 }
 
-export default threeDimensionalArray;
+module.exports = exercise17;

@@ -1,15 +1,18 @@
 /**
- * Create a variable
- * named: myVar
+ * Write the names of 2 variables based on the name 'first_variable'
+ * and store them in the array returned from the function.
  *
- * with the value of:
- * 'hello-world'
+ * 1. the first variable name will have to have the first letter in upper case
+ * 2. the second variable name will have to have the first letter in lower case
  */
-function makeVar() {
-  // Write your code here
-  var myVar = "hello-world";
-  // Don’t change this code
-  return myVar;
+function exercise01() {
+    // Write the variable names in the array as strings
+    return [
+        // upper case first letter variable name ⬇
+        'First_variable',
+        // lower case first letter variable name ⬇
+        'first_variable',
+    ];
 }
 
-export default makeVar;
+module.exports = exercise01;

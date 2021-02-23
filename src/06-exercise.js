@@ -1,39 +1,24 @@
 /**
- * Write a program that stores in the variable result:
+ * Fix the use of the global variable 'globalVariable' so that
+ * it is not available globally anymore.
  *
- * When x and y are undefined:
- * result = 'error'
- *
- * When x is smaller than y:
- * result = 'smaller'
- *
- * When x is greater than y:
- * result = 'larger'
- *
- * When x is equal to y:
- * result = 'equal'
- *
- * NOTE: You will have to use 'if' or 'else if' statements
- * to compare the values of the x and y variables
- * using the JavaScript conditional operators: && or ||
- *
- * @example
- * if (a > b && b !== 5) {
- * // first condition
- * } else if (a > b && b === 5) {
- * // other condition
- * }
+ * Your solution should preserve the value: 'hello-world' of the variable.
  */
-function compareValues(x, y) {
-  let result = "";
 
-  // Add your code here
-  if(typeof x == 'undefined' && typeof y == 'undefined')result='error';
-  else if(x<y)result='smaller'
-  else if(x>y)result='larger';
-  else if(x==y)result='equal';
-  // Don’t change this code
-  return result;
+
+
+// Write you solution bellow this line
+function exercise06Solution() {
+    var globalVariable = 'hello-world';
+    return globalVariable;
 }
 
-export default compareValues;
+// Don’t change the code bellow this line
+function exercise06Test() {
+    return globalVariable;
+}
+
+module.exports = {
+    exercise06Solution: exercise06Solution,
+    exercise06Test: exercise06Test,
+};
