@@ -1,6 +1,6 @@
-`#programming-fundamentals` `#program-structure` `#assembler-school` `#master-in-software-development`
+`#programming-fundamentals` `#program-structure` `#assembler-institute` `#master-in-software-development`
 
-# Assembler School: Programming Fundamentals - Program Structure Exercises <!-- omit in toc -->
+# Assembler Institute: Programming Fundamentals - Program Structure Exercises <!-- omit in toc -->
 
 With these exercises pill you'll learn how programs are structured.
 
@@ -18,7 +18,7 @@ With these exercises pill you'll learn how programs are structured.
 First, you will need to clone the repo:
 
 ```bash
-$ git clone https://github.com/assembler-school/programming-fundamentals-program-structure-pill.git
+$ git clone https://github.com/assembler-institute/programming-fundamentals-program-structure-pill.git
 ```
 
 ## Dependencies
