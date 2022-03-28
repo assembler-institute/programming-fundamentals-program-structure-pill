@@ -9,6 +9,7 @@
  *
  * It should only store 1 value.
  */
+
 function exercise07(number) {
     let result;
 

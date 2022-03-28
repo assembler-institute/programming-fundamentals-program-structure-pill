@@ -9,6 +9,7 @@
  * => Today is Tuesday
  * ...
  */
+
 function exercise16() {
     let days = [
         'Monday',
@@ -19,7 +20,6 @@ function exercise16() {
         'Saturday',
         'Sunday',
     ];
-
     // Write your solution here
     days.forEach(day => console.log("Today is " + day));
 }
