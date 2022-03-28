@@ -1,12 +1,12 @@
 /**
- * Write the names of 2 variables based on the name 'first_variable'
- * and store them in the array returned from the function.
+ * Write 2 elements inside the array below, based on the string 'first_variable', so that:
  *
- * 1. the first variable name will have to have the first letter in upper case
- * 2. the second variable name will have to have the first letter in lower case
+ * 1. the first element has the first letter in upper case
+ * 2. the second element has the first letter in lower case
  */
+
 function exercise01() {
-    // Write the variable names in the array as strings
+    // Write the elements in this array as strings
     return [
         // upper case first letter variable name ⬇
         '',

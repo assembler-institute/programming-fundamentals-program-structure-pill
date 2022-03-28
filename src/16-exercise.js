@@ -9,6 +9,7 @@
  * => Today is Tuesday
  * ...
  */
+
 function exercise16() {
     let days = [
         'Monday',
@@ -19,8 +20,8 @@ function exercise16() {
         'Saturday',
         'Sunday',
     ];
-
     // Write your solution here
+
 }
 
 module.exports = exercise16;

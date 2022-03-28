@@ -1,23 +1,24 @@
 /**
- * Write the names of 4 variables based on the name 'my first variable'
- * Store the variable names you would use to create the variables in the array.
+ * Write 4 elements inside the array below, based on the string 'first_variable',
+ * following this requirements:
  *
- * 1. Write the first variable name in snake_case
- * 2. Write the second variable name in camelCase
- * 3. Write the third variable name in PascalCase
- * 4. Write the fourth variable name starting with:
- *    a '$' sign, an '_' and the variable name in camelCase
+ * 1. Write the first element name in snake_case
+ * 2. Write the second element name in camelCase
+ * 3. Write the third element name in PascalCase
+ * 4. Write the fourth element name starting with:
+ *    a '$' sign, followed by an '_', and the name in camelCase
  */
+
 function exercise02() {
-    // Write the variable names in the array as strings
+    // Write some names in the array as strings
     return [
-        // snake_case variable name ⬇
+        // snake_case element name ⬇
         '',
-        // camelCase variable name ⬇
+        // camelCase element name ⬇
         '',
-        // PascalCase variable name ⬇
+        // PascalCase element name ⬇
         '',
-        // camelCase variable name starting with "$" and "_" ⬇
+        // camelCase element name starting with "$" and "_" ⬇
         '',
     ];
 }

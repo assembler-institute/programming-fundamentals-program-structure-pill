@@ -4,6 +4,7 @@
  *
  * You can choose any valid name for the variable.
  */
+
 function exercise04() {
     // Correct the variable name
     var delete = 'fix my name';

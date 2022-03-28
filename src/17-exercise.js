@@ -1,13 +1,12 @@
 /**
  * BONUS EXERCISE
  *
- * Create a for loop that compares the current item
- * in the array with the next item in the array and that:
+ * Create a for loop that compares the current item (a)
+ * in the array with the next item (b) and that:
  *
- * saves the current item in the next item
- * and the next item in the current item
- *
- * if the current item is larger than the next item.
+ * saves the current item (a) in the next item (b)
+ * and the next item (b) in the current item (a)
+ * if the current item is larger than the next item (a > b).
  *
  * Initial Array = [5, 4, 3, 2, 1]
  *
@@ -22,6 +21,7 @@
  * You will have to compare the current array index
  * with the next array index (i + 1).
  */
+
 function exercise17() {
     let nums = [5, 4, 3, 2, 1];
 

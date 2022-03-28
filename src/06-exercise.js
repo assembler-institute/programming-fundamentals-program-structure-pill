@@ -2,7 +2,8 @@
  * Fix the use of the global variable 'globalVariable' so that
  * it is not available globally anymore.
  *
- * Your solution should preserve the value: 'hello-world' of the variable.
+ * Your solution should preserve the value: 'hello-world' of the variable,
+ * but you can move the variable declaration.
  */
 
 var globalVariable = 'hello-world';

@@ -1,6 +1,7 @@
 /**
  * Fix the following switch statement to execute only one case
  */
+
 function exercise08(dayNum) {
     let dayName;
 
