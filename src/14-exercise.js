@@ -8,7 +8,7 @@
 
 function exercise14() {
     let str = 'hello-world';
-    for (c of str) console.log(c);
+    for (let c of str) console.log(c);
     // Write your solution here
 
 }
